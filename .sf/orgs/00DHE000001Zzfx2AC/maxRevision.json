@@ -1,0 +1,78 @@
+{
+    "fileVersion": 0,
+    "serverMaxRevisionCounter": 12,
+    "sourceMembers": {
+        "LightningComponentBundle__component1": {
+            "memberType": "LightningComponentBundle",
+            "serverRevisionCounter": 1,
+            "lastRetrievedFromServer": 1,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__component1/component1.js": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 2,
+            "lastRetrievedFromServer": 2,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__component1/component1.html": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 3,
+            "lastRetrievedFromServer": 3,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__component1/component1.js-meta.xml": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 4,
+            "lastRetrievedFromServer": 4,
+            "isNameObsolete": false
+        },
+        "AuraDefinitionBundle__app": {
+            "memberType": "AuraDefinitionBundle",
+            "serverRevisionCounter": 5,
+            "lastRetrievedFromServer": 5,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/app.app": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 6,
+            "lastRetrievedFromServer": 6,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/appController.js": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 7,
+            "lastRetrievedFromServer": 7,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/appHelper.js": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 8,
+            "lastRetrievedFromServer": 8,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/app.css": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 9,
+            "lastRetrievedFromServer": 9,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/app.auradoc": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 10,
+            "lastRetrievedFromServer": 10,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/appRenderer.js": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 11,
+            "lastRetrievedFromServer": 11,
+            "isNameObsolete": false
+        },
+        "AuraDefinition__app/app.svg": {
+            "memberType": "AuraDefinition",
+            "serverRevisionCounter": 12,
+            "lastRetrievedFromServer": 12,
+            "isNameObsolete": false
+        }
+    }
+}
