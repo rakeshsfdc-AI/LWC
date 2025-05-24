@@ -1,0 +1,21 @@
+<template>
+    <div>
+        <lightning-input  label="First Name"  type="text" placeholder="First Name" required="true"></lightning-input>
+         <lightning-input  label="Last Name"  type="text" placeholder="Last Name" required="true"></lightning-input>
+          <lightning-input  label="City"  type="text" placeholder="City" required="true"></lightning-input>
+           <lightning-input  label="Postal Code"  type="number" required="true" placeholder="Postal Code"></lightning-input>
+            <lightning-input  label="Email"  type="email" placeholder="Email" required="true"></lightning-input>
+             <lightning-input  label="Current Employer"  type="text" placeholder="Current Employer" required="true"></lightning-input>
+              <lightning-input  label="Customer Age"  type="number" placeholder="Customer Age" required="true"></lightning-input>
+        <lightning-input  label="User ID"  type="text" placeholder="User ID" required="true"></lightning-input>
+        <lightning-input  label="Password"  type="password" placeholder="Password" required="true"></lightning-input>
+        <lightning-input  label="Conform Password"  type="password" placeholder="Conform Password" required="true"></lightning-input>
+      <lightning-combobox  label="Select Country"  placeholder="Select Country" required="true" value={value}
+        onchange={handleChange}
+        options={statusOptions}></lightning-combobox>
+        <lightning-input  label="Select the file "  type="file"  required="true"></lightning-input>    
+          <lightning-input  label="Send Update "  type="toggle"  required="true"></lightning-input>   
+          <lightning-input  label="Fav"  type="color"  required="true"></lightning-input>   
+    </div>
+    
+</template>
