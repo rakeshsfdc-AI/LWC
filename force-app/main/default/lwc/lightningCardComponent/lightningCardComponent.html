@@ -1,0 +1,36 @@
+<template>
+    <div>
+        <lightning-card icon-name="standard:account" >
+            <div slot="title">
+                Account<br/>
+               <b> Berlington Textiles crop of America</b>
+            </div>
+
+            <div slot="actions">
+
+                
+                 <lightning-button  label="Follow" icon-name="utility:add" icon-position="left"></lightning-button>
+
+                 <lightning-button-group>
+                <lightning-button  label="New Contact" ></lightning-button>
+                <lightning-button  label="New Case" ></lightning-button>
+                <lightning-button  label="New Note" ></lightning-button>
+                 <lightning-button-menu alternative-text="Show menu">
+                <lightning-menu-item value="MenuItemOne" label="Menu Item One"></lightning-menu-item>
+                <lightning-menu-item value="MenuItemTwo" label="Menu Item Two"></lightning-menu-item>
+                <lightning-menu-item value="MenuItemThree" label="Menu Item Three"></lightning-menu-item>
+                <lightning-menu-item value="MenuItemFour" label="Menu Item Four"></lightning-menu-item>
+            </lightning-button-menu>
+                 </lightning-button-group>
+
+            </div>
+            <div slot="footer">
+               <lightning-badge label="Account" class="slds-badge_lightest"></lightning-badge>
+               <lightning-badge label="New Customer" class="slds-badge_lightest"></lightning-badge>
+               <lightning-badge label="Premium" class="slds-badge_lightest"></lightning-badge>
+                
+            </div>
+        </lightning-card>
+    </div>
+    
+</template>
