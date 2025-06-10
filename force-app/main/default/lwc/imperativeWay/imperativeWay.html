@@ -1,0 +1,13 @@
+<template>
+    <div>
+        <lightning-button label="click" onclick={handleCLick}></lightning-button>
+        <template for:each={recs1} for:item="a">
+            <lightning-card key={a.Name} title="Account" icon-name="standard:account">
+                <b>{a.Name}</b>
+                <b>{a.Industry}</b>
+            </lightning-card>
+
+        </template>
+    </div>
+    
+</template>
