@@ -9,6 +9,7 @@ export default class ImperativeWay extends LightningElement {
         }).catch(error => {
             console.error('Error fetching accounts:', error);
             this.acc1 = undefined; // Clear the account data on error
+            
         }
         );
     }
