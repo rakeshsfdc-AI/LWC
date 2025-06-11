@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <lightning-input type="text" label="Enter Search Content" value={inputValue} onchange={handleNameChange} placeholder="Enter The Case Status"></lightning-input>
+        <lightning-button label="Search" onclick={handleSubmit}></lightning-button>
+    </div>
+    <div>
+        <template if:true={recs}>
+            <lightning-datatable
+                key-field="Id"
+                data={recs}
+                columns={columns}
+                hide-checkbox-column="true"
+                max-row-selection="1"
+                onrowaction={handleRowAction}>
+                </lightning-datatable>  
+        </template>
+    </div>
+    
+</template>
