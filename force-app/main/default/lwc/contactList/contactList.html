@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Contacts on Opportunity">
+        <template for:each={contacts} for:item="c">
+            <p key={c.Contact.Id} class="slds-p-horizontal_small">
+                {c.Contact.Name} - Role: {c.Role}
+            </p>
+        </template>
+    </lightning-card>
+    
+</template>

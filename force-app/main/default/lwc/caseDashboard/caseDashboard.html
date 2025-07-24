@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Case Summary" icon-name="custom:custom63">
+    <template if:true={caseRec}>
+      <c-case-summary case-record={caseRec}></c-case-summary>
+        <c-case-comments case-comments={caseRec.CaseComments}></c-case-comments>
+    </template>
+    <template if:true={errorVariable}>
+
+    </template>
+    </lightning-card>
+</template>

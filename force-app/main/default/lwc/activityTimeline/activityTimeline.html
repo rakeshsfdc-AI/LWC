@@ -1,0 +1,10 @@
+<template>
+     <lightning-card title="Recent Activities">
+        <template for:each={activities} for:item="act">
+            <p key={act.Subject} class="slds-p-horizontal_small">
+                {act.ActivityDate} — {act.Subject} ({act.Status})
+            </p>
+        </template>
+    </lightning-card>
+    
+</template>

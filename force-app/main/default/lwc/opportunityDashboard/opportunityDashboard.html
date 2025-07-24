@@ -1,0 +1,12 @@
+<template>
+      <template if:true={opportunity}>
+        <c-opportunity-summary summary={opportunity}></c-opportunity-summary>
+        <c-contact-list contacts={opportunity.OpportunityContactRoles}></c-contact-list>
+        <c-activity-timeline activities={opportunity.ActivityHistories}></c-activity-timeline>
+    </template>
+
+    <template if:true={error}>
+        <p class="slds-text-color_error">{error.body.message}</p>
+    </template>
+    
+</template>

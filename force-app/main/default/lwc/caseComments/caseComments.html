@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Case Comments" icon-name="custom:custom63">
+               <template for:each={caseComments} for:item="comment">
+                 <ul key={comment.Id} class="slds-has-dividers_around-space">
+                   <li class="slds-item">Comment : {comment.CommentBody}</li>
+               </ul>
+               </template>
+    </lightning-card>
+</template>
